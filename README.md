@@ -1,16 +1,10 @@
-# BaghBondi Game
+# BaghBondi Android Game
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![Min SDK](https://img.shields.io/badge/Min%20SDK-16-green?style=for-the-badge)
-![Target SDK](https://img.shields.io/badge/Target%20SDK-24-blue?style=for-the-badge)
 
-A traditional Bagh Bandi (Tiger and Goats) board game for Android.
-
-## Overview
-
-Android application built with Java using Android SDK 24. The game implements a rule-based opponent system where the tiger follows deterministic priority rules (capture > random move). Game state is managed through position arrays and SharedPreferences for persistent high score storage. UI uses custom drawable resources and ObjectAnimator for smooth piece movement animations. The board consists of 19 positions encoded as two-digit numbers (row+column) with special movement logic for center and corner positions.
+An Android application built with Java using Android SDK 24. The game implements a rule-based opponent system where the tiger follows deterministic priority rules (capture > random move). Game state is managed through position arrays and SharedPreferences for persistent high score storage. UI uses custom drawable resources and ObjectAnimator for smooth piece movement animations. The board consists of 19 positions encoded as two-digit numbers (row+column) with special movement logic for center and corner positions.
 
 ## How to Run
 
